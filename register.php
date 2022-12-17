@@ -8,7 +8,7 @@ $password = $_POST['password'];
 $bool = register($email, $password);
 
 $response = array(
-    'status' => $bool
+    'status' => $bool,
 );
 
 echo json_encode($response);
